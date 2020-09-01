@@ -1,0 +1,108 @@
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  height: 500px;
+}
+
+.slideshow-image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 500px;
+  width: 100%;
+}
+
+.mySlides {
+  display: block;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+}
+
+.slideshow-text{
+  position: absolute;
+  top: 17%;
+  left: 10%;
+  font-weight: bold;
+  width: 400px;
+  padding: 20px;
+}
+
+.slideshow-text-header{
+  font-size: 70px;
+  color: white;
+}
+
+.slideshow-text-body{
+  font-size: 20px;
+  color: white;
+  line-height: 1.5;
+}
+
+.call-to-action{
+  padding: 15px;
+  color: #E7CE7C;
+  background: #17ADCE;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.call-to-action:hover{
+  color:#17ADCE;
+  background: #E7CE7C; 
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  top: 450px;
+  left: 45%;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+@keyframes fade {
+  0% {opacity: .2} 
+  25% {opacity: .4}
+  50% {opacity: .6}
+  75% {opacity: .8}
+  100% {opacity: 1}
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 0.2s;
+}
+
