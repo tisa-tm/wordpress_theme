@@ -55,27 +55,6 @@
 				<a class = "news-readmore" href="<?php the_permalink();?>">Read More</a>
 			</div>
 		<?php } ?>
-			<!-- <div class = "news">
-				<p class = "news-header">NEWS HEADLINE 2</p>
-				<p class = "news-brief">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua.</p>
-				<span class = "news-date">Aug 18, 2020</span>
-				<a class = "news-readmore" href="#">Read More</a>
-			</div>
-			<div class = "news">
-				<p class = "news-header">NEWS HEADLINE 3</p>
-				<p class = "news-brief">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua.</p>
-				<span class = "news-date">Aug 18, 2020</span>
-				<a class = "news-readmore" href="#">Read More</a>
-			</div>
-			<div class = "news">
-				<p class = "news-header">NEWS HEADLINE 4</p>
-				<p class = "news-brief">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua.</p>
-				<span class = "news-date">Aug 18, 2020</span>
-				<a class = "news-readmore" href="#">Read More</a>
-			</div> -->
 		</div>
 	</div>
 	<?php get_footer();?>
